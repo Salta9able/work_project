@@ -1,8 +1,5 @@
 function parcer(value) {
-  let value = `Product Name	Madinat Jumeirah - Mina A Salam   
-Starting From	21-Aug-2019 to 28-Aug-2019
-Room Type	ARABIAN DELUXE CLUB EXECUTIVE/PREMIUM LEISURE
-Meal Plan	BB`;
+  
 
   let arrayFull = value.split("\n");
 
