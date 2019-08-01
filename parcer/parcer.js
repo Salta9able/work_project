@@ -1,6 +1,6 @@
-function parcer(value) {
-  
+//useless function
 
+function parcer(value) {
   let arrayFull = value.split("\n");
 
   let newArr = [];

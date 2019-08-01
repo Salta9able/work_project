@@ -30,6 +30,7 @@ body {
   border: 1px solid #c13683;
   border-top: none;
   padding: 15px 10px;
+  padding-bottom: 5px;
 }
 .output {
   grid-row: 3 / span 1;
@@ -42,7 +43,9 @@ body {
   color: #c13683;
   font-size: 26px;
 }
+
 #calc_output {
+  margin-top: 30px;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   color: black;

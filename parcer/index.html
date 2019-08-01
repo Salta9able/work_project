@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <button class="button_main1" id="button_voyage">Voyage Tours</button>
+      <button class="button_main1" id="button_voyage">Voyage Tours</button>
 
-        <div class="content">
-            <div class="voyage__content active_content">
-                <input type="text" id="voyage_data" placeholder="details...">
-                <input type="text" id="voyage_ticket" placeholder="ticket">
-                <input type="text" id="voyage_transfer" placeholder="transfer">
-                <input type="text" id="voyage_hotel" placeholder="hotel">
-                <select id="voyage_commission">
-                    <option value="0.845">0.845</option>
-                    <option value="0.84">0.84</option>
-                    <option value="0.85">0.85</option>
-                    <option value="0.87">0.87</option>
-                    <option value="0.97">0.97</option>
-                </select>
-                <button class="button" id="voyage_calc">Calculate</button>
-            </div>
+      <div class="content">
+        <div class="voyage__content active_content">
+          <input type="text" id="voyage_data" placeholder="details..." />
+          <input type="text" id="occupancy" placeholder="occupancy" />
+          <input type="text" id="voyage_ticket" placeholder="ticket" />
+          <input type="text" id="voyage_transfer" placeholder="transfer" />
+          <input type="text" id="voyage_hotel" placeholder="hotel" />
+          <select id="voyage_commission">
+            <option value="0.845">0.845</option>
+            <option value="0.84">0.84</option>
+            <option value="0.85">0.85</option>
+            <option value="0.87">0.87</option>
+            <option value="0.97">0.97</option>
+          </select>
+          <button class="button" id="voyage_calc">Calculate</button>
         </div>
+      </div>
 
-        <div class="output">
-            <h2>Output:</h2>
-            <div id="calc_output"></div>
-        </div>
+      <div class="output">
+        <h2>Output:</h2>
+        <div id="calc_output"></div>
+      </div>
     </div>
 
-    <script src="parcer.js"></script>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
