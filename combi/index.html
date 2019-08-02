@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="subcontainer hotel1">
+            <div class="entry">
+                <input type="text" id="hotel1Name" placeholder="hotel name">
+                <input type="text" id="hotel1Price" placeholder="hotel price">
+                <button id="addBtn1" class="button">Add</button>
+            </div>
+            <div class="demonstration" id="demoHotel1"></div>
+        </div>
+        <div class="subcontainer hotel2">
+            <div class="entry">
+                <input type="text" id="hotel2Name" placeholder="hotel name">
+                <input type="text" id="hotel2Price" placeholder="hotel price">
+                <button id="addBtn2" class="button">Add</button>
+            </div>
+            <div class="demonstration" id="demoHotel2"></div>
+        </div>
+        <div class="extras">
+            <input type="text" id="transferPrice" placeholder="transfer">
+            <input type="text" id="ticketPrice" placeholder="ticket">
+            <select name="commission" id="commission">
+                <option value="0.85">0.85</option>
+                <option value="0.84">0.84</option>
+                <option value="0.845">0.845</option>
+                <option value="0.87">0.87</option>
+            </select>
+            <button class="button" id="calculate">Calculate</button>
+        </div>
+        <div class="output">
+            <h3>Output:</h3>
+        </div>
+    </div>
+</body>
+</html>
