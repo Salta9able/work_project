@@ -2,7 +2,7 @@ function getId(id) {
   return document.getElementById(id);
 }
 
-document.getElementById("voyage_data").value = "details...";
+document.getElementById("voyage_data").value = "";
 let addBtn = getId("voyage_calc");
 let output = getId("calc_output");
 

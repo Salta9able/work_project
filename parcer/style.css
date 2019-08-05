@@ -91,3 +91,7 @@ button.active {
   color: gray;
   background-image: linear-gradient(white 50%, rgba(0, 0, 0, 0.03));
 }
+
+.infosheet {
+  color: red;
+}
