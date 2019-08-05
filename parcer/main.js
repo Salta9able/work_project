@@ -61,5 +61,6 @@ function dateCorrector(rawDate) {
     .trim()
     .replace(/-/g, "")
     .replace(/2019/g, "")
+    .replace(/2020/g, "")
     .replace(/ TO /, "-");
 }
