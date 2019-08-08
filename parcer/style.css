@@ -92,6 +92,7 @@ button.active {
   background-image: linear-gradient(white 50%, rgba(0, 0, 0, 0.03));
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 1220px) {
   .container {
     display: flex;
@@ -114,3 +115,8 @@ button.active {
     margin-bottom: 6px;
   }
 }
+=======
+.infosheet {
+  color: red;
+}
+>>>>>>> e6a1f93b122e048be3d44192085ba044dadba2b2
