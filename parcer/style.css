@@ -91,3 +91,26 @@ button.active {
   color: gray;
   background-image: linear-gradient(white 50%, rgba(0, 0, 0, 0.03));
 }
+
+@media screen and (max-width: 1220px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .content > div {
+    display: flex;
+    flex-direction: column;
+  }
+  .content input {
+    border-radius: 2px;
+    border: 1px solid gray;
+    padding-left: 6px;
+    margin-bottom: 6px;
+  }
+  .content select {
+    border-radius: 2px;
+    color: gray;
+    background-image: linear-gradient(white 50%, rgba(0, 0, 0, 0.03));
+    margin-bottom: 6px;
+  }
+}

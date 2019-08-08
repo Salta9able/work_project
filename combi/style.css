@@ -65,3 +65,13 @@ input {
   border: 1px solid #c13683;
   cursor: pointer;
 }
+
+@media screen and (max-width: 850px) {
+  .subcontainer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .demonstration {
+    grid-row: 2 / span 1;
+  }
+}
