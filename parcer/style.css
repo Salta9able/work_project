@@ -104,7 +104,7 @@ button.active {
   .content input {
     border-radius: 2px;
     border: 1px solid gray;
-    padding-left: 6px;
+    padding: 6px;
     margin-bottom: 6px;
   }
   .content select {
